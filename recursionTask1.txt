@@ -1,0 +1,6 @@
+ function sumArray(array) {
+    if (!array.length) {
+      return 0
+    }
+    return array.shift() + sumArray(array) 
+  }
